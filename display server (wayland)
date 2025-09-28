@@ -1,0 +1,18 @@
+Whats a display server?
+
+
+
+
+it has a couple of responsibilitiis.
+Display Output--------------------------------------------------------------------------------------------------
+recives commands to show stuff on the screen from GUI apps.
+Figures out where to place it. so that apps dont just randomly appear or be placed somewhere outside the screen
+ 
+acts as a translator and a coordinator from commands of gui apps to the gpu. that displays it. 
+
+
+so, it takes commands from GUI apps and sends a messege to the gpu (using drivers) to place that on the screen.
+without one the commands from the gui apps will not know where or how to show, and just not display anything.
+
+
+-fact checked with AI. written by hand. would advise fact checking on other trusted sources
